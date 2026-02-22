@@ -2,6 +2,13 @@
 
 Este repositório contém uma implementação do clássico **Problema das N-Rainhas** resolvido através de um **Algoritmo Genético**. Além da lógica computacional, o projeto foca na experiência do usuário ao fornecer uma interface gráfica interativa onde é possível visualizar a evolução da solução em tempo real.
 
+## Equipe do Projeto
+- Carlos Artur Alencar Cruz
+- Guilherme Inácio Santos Paes
+- Irwing Felipe Pereira Vieira
+- Raphael Matos da Silva Gonçalves
+- Renan Nunes Andrade Sampaio
+
 ## 💻 Sobre o Projeto
 
 ### Funcionalidades da Interface (Front-end)
@@ -43,10 +50,10 @@ Acesse a interface no seu navegador através do endereço gerado no terminal (ge
 ### 🧠 Estrutura do Algoritmo
 O Algoritmo Genético simula o processo de evolução natural dividido nas seguintes etapas:
 
-- População Inicial: Geração de distribuições aleatórias de rainhas no tabuleiro.
+- **População Inicial:** Geração de distribuições aleatórias de rainhas no tabuleiro.
 
-- Fitness (Aptidão): Função que calcula o número de conflitos (ataques mútuos) entre as rainhas. O objetivo principal da aplicação é minimizar esse valor a zero.
+- **Fitness (Aptidão):** Função que calcula o número de conflitos (ataques mútuos) entre as rainhas. O objetivo principal da aplicação é minimizar esse valor a zero.
 
-- Seleção e Crossover (Cruzamento): Escolha dos melhores indivíduos da geração atual para reprodução, misturando seus "genes" (posições das rainhas) para criar uma nova geração de descendentes.
+- **Seleção e Crossover (Cruzamento):** Escolha dos melhores indivíduos da geração atual para reprodução, misturando seus "genes" (posições das rainhas) para criar uma nova geração de descendentes.
 
-- Mutação: Alteração aleatória da posição de uma ou mais rainhas em um indivíduo para garantir a diversidade genética da população e evitar que o algoritmo fique preso em mínimos locais.
+- **Mutação:** Alteração aleatória da posição de uma ou mais rainhas em um indivíduo para garantir a diversidade genética da população e evitar que o algoritmo fique preso em mínimos locais.
